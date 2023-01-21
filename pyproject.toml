@@ -26,3 +26,33 @@ line_length = 119
 include_trailing_comma = true
 extend_skip = ["migrations", "alembic"]
 
+[tool.coverage.run]
+branch = true
+source = ["my_project"]
+omit = [
+    "*/tests/*",
+    "*/something/*",
+    "my_project/my_debug.py",
+    "my_project/my_new_debug.py",
+    "my_project/main.py"
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "def __str__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "if typing.TYPE_CHECKING:",
+    "@overload"
+]
+
+[tool.coverage.xml]
+output = "public/coverage/coverage.xml"
+
+[tool.coverage.html]
+directory = "public/coverage"
+
