@@ -1,0 +1,33 @@
+{
+  "my_key1": "foo",
+  "my_key2": "# MyValue=100",
+  "my_key3": "spam",
+  "MyValue": "bacon",
+  "MyValue1": "baz",
+  "my_key6": "# MyValue=",
+  "#MyValue": "MyValue",
+  "# MyValue": "FOo",
+  "MyValue1": "FOO",
+  "my_key10": "fo0",
+  "my_key11": [
+    "foo",
+    "bar",
+    "spam",
+    "bacon",
+    "baz",
+    "ham",
+    "eggs"
+  ],
+  "my_key12": {
+      "my_key1": "1",
+      "MyValue=100": "2",
+      "MyValue=1": "3",
+      "# MyValue=100": "4",
+      "#MyValue=1": "foo",
+      "# MyValue=100": "6",
+      "my_key7": "7",
+      "# MyValue=1": "8",
+      "my_key9": "9",
+      "my_key10": "10"
+  }
+}
