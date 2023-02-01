@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@bill0077 
-hakumaku
-/
-midterm-exam-5
-Public
-Fork your own copy of hakumaku/midterm-exam-5
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-midterm-exam-5/.github/workflows/learn-github-actions.yml
-@JJHYE0N
-JJHYE0N prob3_commit
-Latest commit 69b5513 11 minutes ago
- History
- 1 contributor
-33 lines (33 sloc)  1.11 KB
-
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
@@ -60,18 +31,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-midterm-exam-5/learn-github-actions.yml at main · hakumaku/midterm-exam-5
